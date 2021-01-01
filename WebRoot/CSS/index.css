@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding:0;
+    
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color:#ff5000;
+}
+li{
+    color:black;
+}
+.top{
+    position: relative;
+    width:auto;
+    height:75px;
+    padding:13px 0;
+    background: url(http://img.alicdn.com/tfs/TB1hWER0QL0gK0jSZFAXXcA9pXa-1920-100.png);
+}
+.tianmao-log{
+    width:80px;
+    height:80px;
+    position:absolute;
+    left:150px;
+}
+.clnz{
+    width:210px;
+    height:75px;
+    position:absolute;
+    left:250px;
+}
+
+
+#top-h3{
+    position: absolute;
+    top:15px;
+    left:20px;
+   width:85px;
+    z-index: 5;
+    color:white;
+  font-weight: normal;
+   line-height:1em;
+}
+
+.top span{
+    width:85px;
+    position:absolute;
+    left:20px;
+    top:40px;
+    z-index: 5;
+    font-size:12px;
+    line-height:1em;
+    color:white;
+}
+#top-img2{
+   width:52px;
+   height:52px;
+   position:absolute;
+   left:143px;
+   top:12px;
+   border-radius: 10px;
+}
+
+.ssxb{
+    width:210px;
+    height:75px;
+    position:absolute;
+    left:470px;
+
+}
+
+.rmnz{
+    width:210px;
+    height:75px;
+    position:absolute;
+    left:690px;
+
+}
+
+.bkwj{
+    width:210px;
+    height:75px;
+    position:absolute;
+    left:910px;
+}
+
+.shbh{
+    width:210px;
+    height:75px;
+    position:absolute;
+    left:1130px;
+}
+
+
+   .cen{
+       width:auto;
+       height:800px;
+       position:absolute;
+       top:101px;
+       padding-left: 170px;
+       padding-right:170px;
+   }
+   .cen-left{
+       width:170px;
+       height:800px;
+       position:absolute;
+       top:0px;
+       left:0px;
+       background: url(https://img.alicdn.com/tfs/TB1nwr5omR26e4jSZFEXXbwuXXa-359-800.png) no-repeat;    
+   }
+
+   .cen-cen{
+       position:absolute;
+      right:170px;
+      left:170px;
+       top:0px;
+       width:1180px;
+       height:800px;
+      
+   }
+   .cen-right{
+    width:170px;
+    height:800px;
+    position:absolute;
+    top:0px;
+    left:1350px;
+    background: url(https://img.alicdn.com/tfs/TB1YLYbqA9l0K4jSZFKXXXFjpXa-359-800.png) no-repeat;
+    
+   }
+
+   .cen-head{
+       width:100%;
+       height:120px;
+      
+       padding: 10px 0;
+      
+   }
+
+   .cen-head-log{
+       background: url(https://img.alicdn.com/tfs/TB1ww_v1bY1gK0jSZTEXXXDQVXa-190-121.gif)no-repeat;
+       background-size: 190px 120px;
+        position:absolute;
+       top:1px;
+       left:5px;
+       padding-top:120px;
+        width:190px;
+        height:0px;
+        overflow: hidden;
+       
+   }
+
+   .cen-incen{
+       width:627px;
+       height:87px;
+       position:absolute;
+       top:45px;
+       left:260px;
+   }
+  .smalldh{
+      width:627px;
+      height:26px;
+      
+  }
+   .smalldh div{
+       width:36px;
+       height:22px;
+       float:left;
+       text-align: center;
+       line-height: 22px;
+       
+   }
+    .smalldh-one{
+        position:absolute;
+        left:25px;
+    }
+    .smalldh-two{
+        position:absolute;
+        left:69px;
+    }
+    .smalldh-three{
+        position:absolute;
+        left:123px;
+    }
+   .smalldh div:hover{
+    background-color: #ff5000;
+    padding:2px 4px;
+    color:white;
+    border-radius: 8px;
+   }
+
+   .search{
+       clear:both;
+       width:550px;
+       height:36px;
+       border-left: solid 2px #ff5000;
+       border-top: solid 2px #ff5000;
+       border-bottom: solid 2px #ff5000;
+       border-right: none;
+       border-top-left-radius: 20px;
+       border-bottom-left-radius: 20px;
+       margin-top: 0px;
+       padding:0 5px;
+       outline: none;
+   }
+   
+   .cen-incen button{
+       width:70px;
+       height:36px;
+       background-color: #ff5000;
+       color:white;
+       border-top-right-radius: 20px;
+       border-bottom-right-radius: 20px;
+       border: solid 1px black;
+       position:absolute;
+       left:550px;
+       outline: none;
+   }
+   .cen-incen ul{
+       width:586;
+       height:18px;
+       position: relative;
+       top:5px;
+   }
+   .cen-incen ul li{
+       float:left;
+       font-size:12px;
+       letter-spacing: 0.5px;
+       margin-left: 3px;
+   }
+
+   .cen-incen ul li:hover{
+       color:#ff5000;
+   }
+
+   .redpack{
+       width:70px;
+       height:82px;
+       position:absolute;
+       left:1000px;
+       top:40px;
+       font-size:12px;
+       text-align: center;
+       background-color: snow;
+       
+       color:#ff5000;
+   }
+   .redpack img{
+       width:70px;
+       height:70px;
+   }
+
+   .cen-dh{
+      
+       width:auto;
+       height:30px;
+   }
+   .dh-left{
+       width:190px;
+       height:30px;
+       background-color: #ff5000;
+       text-align: center;
+       line-height: 27px;
+       float:left;
+       color:white;
+   }
+
+   .dh-right{
+       width:auto;
+       height:30px;
+       background-color: #ff9000;
+      
+   }
+   .dh-right a{
+       height:26px;
+      position: absolute;
+      font-weight:bolder;
+       color:white;
+       line-height:30px;
+       text-align: center;
+   }
+  
+       
+ 
+   #dh-one{
+      
+       left:210px;
+   }
+   #dh-two{
+    left:270px;
+   }
+   #dh-three{
+    left:340px;
+}
+#dh-four{
+    left:420px;
+}
+#dh-five{
+    left:490px;
+}
+#dh-six{
+    left:560px;
+}
+#dh-seven{
+    left:640px;
+}
+#dh-eight{
+    left:720px;
+}
+#dh-nine{
+    left:800px;
+}
+#dh-ten{
+    left:880px;
+}
+   .dh-right a:hover{
+       padding:1px 3px;
+       border-radius: 7px;
+       background-color: #ff5000;
+       
+   }

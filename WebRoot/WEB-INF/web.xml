@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  <servlet>
+    <servlet-name>login1</servlet-name>
+    <servlet-class>servlets.login1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>servlets.register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>shoopCardSelect</servlet-name>
+    <servlet-class>servlets.shoopCardSelect</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteCard</servlet-name>
+    <servlet-class>servlets.deleteCard</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updateCard</servlet-name>
+    <servlet-class>servlets.updateCard</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addCard</servlet-name>
+    <servlet-class>servlets.addCard</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>zx</servlet-name>
+    <servlet-class>servlets.zx</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>login2</servlet-name>
+    <servlet-class>servlets.login2</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+ 
+
+
+
+  <servlet-mapping>
+    <servlet-name>login1</servlet-name>
+    <url-pattern>/login1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shoopCardSelect</servlet-name>
+    <url-pattern>/shoopCardSelect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteCard</servlet-name>
+    <url-pattern>/deleteCard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updateCard</servlet-name>
+    <url-pattern>/updateCard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCard</servlet-name>
+    <url-pattern>/addCard</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>zx</servlet-name>
+    <url-pattern>/zx</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>login2</servlet-name>
+    <url-pattern>/login2</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>

@@ -1,0 +1,90 @@
+#box{
+    width:520px;
+    height:280px;
+   position: absolute;
+   top:10px;
+  left:2px;
+}
+    #lbt{
+        width:520px;
+        height:280px;
+         position: absolute;
+         z-index: 1;
+         cursor: pointer;
+      }  
+   
+    
+
+
+#back,
+#next
+{
+    outline: none;
+    color:azure;
+    background-color:slategray;
+    display:none;
+    width:20px;
+    height:33px;
+    position:absolute;
+    z-index: 5;
+    top:50%;
+    margin-top: -15px;
+    cursor: pointer;
+}
+#next{
+    right:0;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+#back{
+  border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#back:hover,
+#next:hover{
+   background-color:dimgray;
+}
+.imgs{
+   background-color: ivory;
+}
+#img-one,
+#img-two,
+#img-three,
+#img-four,
+#img-five{
+   z-index: 5;
+   width:10px;
+   height:10px;
+   border-radius: 50%;
+   border:solid 1px;
+  cursor:pointer;
+   position:absolute;
+   bottom:10px;
+  
+}
+.white{
+   background-color: ivory;
+}
+#img-one{
+   left:230px;
+   
+}
+#img-two{
+   left:245px;
+}
+#img-three{
+   left:260px;
+}
+#img-four{
+   left:275px;
+}
+#img-five{
+   left:290px;
+}
+.red{
+background-color: red;
+}
+.html {
+   -webkit-filter: grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);
+ } 
+

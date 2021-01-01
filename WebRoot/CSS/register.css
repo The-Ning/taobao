@@ -1,0 +1,143 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+.log{
+    width:110px;
+    height:0px;
+    padding-top:75px;
+    background: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png) 0 0 no-repeat;
+    background-size: 110px;
+    
+    position: absolute;
+    top:150px;
+    left:400px;
+   
+}
+
+.log::after{
+    content: "用户注册";
+    position: absolute;
+    top:-13px;
+    left:120px;
+    color:black;
+    font-size:30px;
+    line-height: 75px;
+    width:150px;
+    height:100px;
+}
+
+
+
+
+form{
+    width:400px;
+    height:400px;
+    background-color:whitesmoke;
+    position: absolute;
+    top:30%;
+   left:50%;
+   margin-left: -200px;
+}
+
+#username,
+#password,
+#password1,
+#account{
+    width:250px;
+    height:40px;
+    position: absolute;
+    left:100px;
+}
+#username{
+    top:50px;
+}
+#account{
+    top:120px;
+}
+#password{
+    top:195px;
+}
+#password1{
+    top:270px;
+}
+lable{
+    display:inline-block;
+    position: absolute;
+    left:20px;
+    width:60px;
+    height:40px;
+    font-size: 15px;
+    line-height: 40px;
+    text-align:justify;
+}
+
+#sname{
+   top:50px;
+}
+#saccount{
+    top:120px;
+}
+#spass{
+    top:200px;
+}
+#spass1{
+    top:275px;
+}
+#usernameyz,
+#passyz,
+#pass1yz,
+#accountyz
+{
+    display:inline-block;
+    width:250px;
+    height:25px;
+    background-color: papayawhip;
+    position: absolute;
+    left:100px;
+    z-index: 1;
+   
+    color:red;
+}
+
+#usernameyz{
+    top:95px;
+}
+
+#accountyz{
+    top:167px;
+}
+#passyz{
+    top:242px;
+}
+#pass1yz{
+    top:315px;
+}
+
+
+#sub{
+    width:150px;
+    height:35px;
+    background-color: red;
+    position: absolute;
+    top:350px;
+    left:50%;
+    margin-left: -50px;
+    text-align: center;
+    line-height: 35px;
+    color:white;
+}
+
+
+
+.tab{
+    background-color: #ff6f06;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    width:100%;
+    height:30px;
+    position: absolute;
+   line-height: 30px;
+}
